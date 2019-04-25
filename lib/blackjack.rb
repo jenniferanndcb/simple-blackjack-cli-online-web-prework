@@ -37,8 +37,8 @@ end
 def hit? (num)
   # code hit? here
   prompt_user
-  get_user_input
-    puts "h" ? deal_card : prompt_user 
+  input = get_user_input
+    input == "h" ? deal_card : prompt_user 
 
 end
 
