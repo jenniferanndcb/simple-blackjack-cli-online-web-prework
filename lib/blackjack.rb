@@ -38,12 +38,13 @@ def hit? (num)
   # code hit? here
   prompt_user
   get_user_input
-    "h" ? deal_card :  
+    puts "h" ? deal_card : prompt_user 
 
 end
 
 def invalid_command
   # code invalid_command here
+  
 end
 
 #####################################################
