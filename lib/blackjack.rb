@@ -38,7 +38,7 @@ def hit? (num)
   # code hit? here
   prompt_user
   input = get_user_input
-    input == "h" ? deal_card : prompt_user 
+    input == "h" ? deal_card : current_total 
 
 end
 
