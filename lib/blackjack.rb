@@ -64,8 +64,9 @@ def runner
   # code runner here
   welcome
   initial_round
-  prompt_user
-  get_user_input
+  until current_total < 21 
+    prompt_user
+    get_user_input
   
 end
     
